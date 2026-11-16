@@ -1,0 +1,242 @@
+{
+  "efficientnet_b0": {
+    "test": {
+      "standard_ecg": {
+        "n": 1109,
+        "macro_auroc": 0.9235193437381575,
+        "macro_auprc": 0.585161422503808,
+        "micro_f1": 0.7286494101074132,
+        "macro_brier": 0.07504770988598466,
+        "eligible_classes": 20
+      },
+      "holter": {
+        "n": 492,
+        "macro_auroc": 0.9276576790720842,
+        "macro_auprc": 0.7441482127959647,
+        "micro_f1": 0.8616924476797089,
+        "macro_brier": 0.07430318071107779,
+        "eligible_classes": 14
+      }
+    },
+    "external": {
+      "standard_ecg": {
+        "n": 4263,
+        "macro_auroc": 0.8591297814096555,
+        "macro_auprc": 0.41622552053328615,
+        "micro_f1": 0.5623466666666667,
+        "macro_brier": 0.15511247692139526,
+        "eligible_classes": 19
+      }
+    }
+  },
+  "mobilenet_v2": {
+    "test": {
+      "standard_ecg": {
+        "n": 1109,
+        "macro_auroc": 0.9170851434863095,
+        "macro_auprc": 0.5522181477420228,
+        "micro_f1": 0.7126556016597511,
+        "macro_brier": 0.07975778193213046,
+        "eligible_classes": 20
+      },
+      "holter": {
+        "n": 492,
+        "macro_auroc": 0.8941752111417661,
+        "macro_auprc": 0.6918472251031186,
+        "micro_f1": 0.8401420959147424,
+        "macro_brier": 0.09484836193067687,
+        "eligible_classes": 14
+      }
+    },
+    "external": {
+      "standard_ecg": {
+        "n": 4263,
+        "macro_auroc": 0.8334858325981546,
+        "macro_auprc": 0.3580160741374344,
+        "micro_f1": 0.5187580189889659,
+        "macro_brier": 0.18097318885357758,
+        "eligible_classes": 19
+      }
+    }
+  },
+  "resnet18": {
+    "test": {
+      "standard_ecg": {
+        "n": 1109,
+        "macro_auroc": 0.9269431053874563,
+        "macro_auprc": 0.588282903301408,
+        "micro_f1": 0.7216136324117545,
+        "macro_brier": 0.07064083223231137,
+        "eligible_classes": 20
+      },
+      "holter": {
+        "n": 492,
+        "macro_auroc": 0.9158171949366289,
+        "macro_auprc": 0.7170969245370866,
+        "micro_f1": 0.8401405357927098,
+        "macro_brier": 0.07853879886014122,
+        "eligible_classes": 14
+      }
+    },
+    "external": {
+      "standard_ecg": {
+        "n": 4263,
+        "macro_auroc": 0.7651313763428579,
+        "macro_auprc": 0.31629203660901484,
+        "micro_f1": 0.32617513719875924,
+        "macro_brier": 0.2401461496360992,
+        "eligible_classes": 19
+      }
+    }
+  },
+  "shufflenet_v2_x1_0": {
+    "test": {
+      "standard_ecg": {
+        "n": 1109,
+        "macro_auroc": 0.8896026289750345,
+        "macro_auprc": 0.49715324927532567,
+        "micro_f1": 0.6523076923076923,
+        "macro_brier": 0.10028980667702854,
+        "eligible_classes": 20
+      },
+      "holter": {
+        "n": 492,
+        "macro_auroc": 0.8550109761899233,
+        "macro_auprc": 0.6210836059841152,
+        "micro_f1": 0.8039950062421972,
+        "macro_brier": 0.1181261119033609,
+        "eligible_classes": 14
+      }
+    },
+    "external": {
+      "standard_ecg": {
+        "n": 4263,
+        "macro_auroc": 0.7142795433912802,
+        "macro_auprc": 0.25335732586492005,
+        "micro_f1": 0.2457977248287962,
+        "macro_brier": 0.33059393879222243,
+        "eligible_classes": 19
+      }
+    }
+  },
+  "squeezenet1_1": {
+    "test": {
+      "standard_ecg": {
+        "n": 1109,
+        "macro_auroc": 0.899761034453517,
+        "macro_auprc": 0.5032654332785713,
+        "micro_f1": 0.6673199412052915,
+        "macro_brier": 0.09754668073728681,
+        "eligible_classes": 20
+      },
+      "holter": {
+        "n": 492,
+        "macro_auroc": 0.8584418187623661,
+        "macro_auprc": 0.645785383396473,
+        "micro_f1": 0.8173950670705322,
+        "macro_brier": 0.11288442622338023,
+        "eligible_classes": 14
+      }
+    },
+    "external": {
+      "standard_ecg": {
+        "n": 4263,
+        "macro_auroc": 0.679368680577808,
+        "macro_auprc": 0.2146285692173553,
+        "micro_f1": 0.253669178897263,
+        "macro_brier": 0.3561656680938445,
+        "eligible_classes": 19
+      }
+    }
+  },
+  "TAG-ECGNet": {
+    "test": {
+      "standard_ecg": {
+        "n": 1109,
+        "macro_auroc": 0.9373962604945133,
+        "macro_auprc": 0.6205504045208196,
+        "micro_f1": 0.749173705471906,
+        "macro_brier": 0.067809631023556,
+        "eligible_classes": 20
+      },
+      "holter": {
+        "n": 492,
+        "macro_auroc": 0.9250143295667813,
+        "macro_auprc": 0.7454825503123373,
+        "micro_f1": 0.8678986995208761,
+        "macro_brier": 0.07369228904800755,
+        "eligible_classes": 14
+      }
+    },
+    "external": {
+      "standard_ecg": {
+        "n": 4263,
+        "macro_auroc": 0.8708708646821774,
+        "macro_auprc": 0.41206279349996455,
+        "micro_f1": 0.5798796216680997,
+        "macro_brier": 0.12837593139786468,
+        "eligible_classes": 19
+      }
+    }
+  },
+  "TAG-ECGNet without numerical fusion": {
+    "test": {
+      "standard_ecg": {
+        "n": 1109,
+        "macro_auroc": 0.9212179513009012,
+        "macro_auprc": 0.5774845277589462,
+        "micro_f1": 0.7241014799154334,
+        "macro_brier": 0.07471445919945836,
+        "eligible_classes": 20
+      },
+      "holter": {
+        "n": 492,
+        "macro_auroc": 0.9269595735293855,
+        "macro_auprc": 0.745316408239323,
+        "micro_f1": 0.8520710059171598,
+        "macro_brier": 0.07423097919672728,
+        "eligible_classes": 14
+      }
+    },
+    "external": {
+      "standard_ecg": {
+        "n": 4263,
+        "macro_auroc": 0.8342635593629217,
+        "macro_auprc": 0.379014899234919,
+        "micro_f1": 0.5886818495514148,
+        "macro_brier": 0.13832371701535426,
+        "eligible_classes": 19
+      }
+    }
+  },
+  "measurement_only": {
+    "test": {
+      "standard_ecg": {
+        "n": 1109,
+        "macro_auroc": 0.8759961250173929,
+        "macro_auprc": 0.46909696002896606,
+        "micro_f1": 0.6279874213836478,
+        "macro_brier": 0.12817918642441406,
+        "eligible_classes": 20
+      },
+      "holter": {
+        "n": 492,
+        "macro_auroc": 0.7238405197749457,
+        "macro_auprc": 0.5161891612148665,
+        "micro_f1": 0.7481133999592087,
+        "macro_brier": 0.1705693527766369,
+        "eligible_classes": 14
+      }
+    },
+    "external": {
+      "standard_ecg": {
+        "n": 4263,
+        "macro_auroc": 0.7535277609022092,
+        "macro_auprc": 0.301820115619121,
+        "micro_f1": 0.3436123348017621,
+        "macro_brier": 0.3300076384123522,
+        "eligible_classes": 19
+      }
+    }
+  }
+}

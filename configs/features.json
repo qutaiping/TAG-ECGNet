@@ -1,0 +1,22 @@
+[
+  "hr_bpm",
+  "pr_ms",
+  "p_ms",
+  "qrs_ms",
+  "qt_ms",
+  "qtc_ms",
+  "p_axis_deg",
+  "qrs_axis_deg",
+  "t_axis_deg",
+  "rv5_mv",
+  "sv1_mv",
+  "rv5_sv1_sum_mv",
+  "hr_mean",
+  "hr_min",
+  "hr_max",
+  "total_beats",
+  "sdnn",
+  "duration_hours",
+  "qrs_t_angle_deg",
+  "analyzed_duration_hours"
+]

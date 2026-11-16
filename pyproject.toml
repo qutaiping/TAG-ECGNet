@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tag-ecgnet"
+version = "0.1.0"
+description = "TAG-ECGNet: Type-Aware Gated ECG Network for report-level multi-label diagnosis"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+  "torch==2.1.1", "torchvision==0.16.1", "numpy==1.25.2",
+  "Pillow==10.2.0", "scikit-learn==1.6.1", "opencv-python-headless==4.8.0.76"
+]
+
+[tool.setuptools.packages.find]
+include = ["tag_ecgnet*"]
