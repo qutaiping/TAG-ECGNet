@@ -192,10 +192,7 @@ portable release. Full aggregate metrics are in [results/benchmark_summary.json]
 | TAG-ECGNet without numerical fusion | 0.9212 / 0.5775 | 0.9270 / 0.7453 | 0.8343 / 0.3790 |
 | **TAG-ECGNet** | **0.9374 / 0.6206** | **0.9250 / 0.7455** | **0.8709 / 0.4121** |
 
-Anzhen train/validation/test sizes are 12,203 / 1,472 / 1,601 reports; internal
-test subsets contain 1,109 standard ECG and 492 Holter reports. The external
-cohort contains 4,263 standard ECG reports. Metrics cover 20, 14 and 19 eligible
-categories, respectively. Do not compare examination types as identical tasks.
+Anzhen train/validation/test sizes are 11,198 / 1,351 / 1,469 reports; internal test subsets contain 980 standard ECG and 489 Holter reports. The external cohort contains 4,263 standard ECG reports. Metrics cover 20, 14 and 19 eligible categories, respectively. Do not compare examination types as identical tasks.
 
 These single-seed experiments have no significance testing. Patient linkage is
 incomplete; strictly patient-independent internal evaluation cannot be claimed.
