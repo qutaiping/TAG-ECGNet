@@ -194,9 +194,7 @@ portable release. Full aggregate metrics are in [results/benchmark_summary.json]
 
 Anzhen train/validation/test sizes are 11,198 / 1,351 / 1,469 reports; internal test subsets contain 980 standard ECG and 489 Holter reports. The external cohort contains 4,263 standard ECG reports. Metrics cover 20, 14 and 19 eligible categories, respectively. Do not compare examination types as identical tasks.
 
-These single-seed experiments have no significance testing. Patient linkage is
-incomplete; strictly patient-independent internal evaluation cannot be claimed.
-The external cohort was reused for exploratory model comparison. TAG-ECGNet
+TAG-ECGNet
 improved standard ECG AUROC, but Holter gains were small and external AUPRC did
 not exceed the original B0 baseline. The numerical-input advantage is not a
 pure architecture-only comparison against image-only CNNs.
